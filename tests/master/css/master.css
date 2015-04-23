@@ -21,7 +21,7 @@
  * need to adjust the paths below:
  */
 
-@import url("/selectivizr-git/tests/master/css/import-url-root-relative-path.css");
+@import url("import-url-root-relative-path.css");
 @import url("http://iis/selectivizr-git/tests/master/css/import-url-fully-qualified-path.css");
 @import url("//iis/selectivizr-git/tests/master/css/import-url-protocol-relative-path.css");
 
@@ -54,7 +54,7 @@ body {
 }
 
 #url-htc {
-	behavior: url(htc/test.htc);
+	behavior: url(../htc/test.htc);
 }
 											
 /* pseudo-class tests
